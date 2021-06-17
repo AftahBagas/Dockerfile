@@ -25,7 +25,7 @@ jobs:
         file: ./Dockerfile
         platforms: linux/amd64
         push: true
-        tags: biansepang/weebproject:buster
+        tags: AftahBagas/Alpha-Userbot:buster
         
     - name: send telegram message
       run: |
