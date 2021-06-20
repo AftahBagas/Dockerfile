@@ -2,7 +2,7 @@ FROM python:slim-buster
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ADD https://raw.githubusercontent.com/AftahBagas/alpha_/staging/requirements.txt requirements.txt
+ADD https://raw.githubusercontent.com/AftahBagas/Alpha-Userbot/staging/requirements.txt requirements.txt
 RUN set -ex \
     && apt-get -qq update \
     && apt-get -qq -y install --no-install-recommends \
